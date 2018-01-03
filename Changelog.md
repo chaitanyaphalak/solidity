@@ -6,7 +6,7 @@ Features:
  * Code Generator: Assert that ``k != 0`` for ``mulmod(a, b, k)`` and ``addmod(a, b, k)`` as experimental 0.5.0 feature.
  * Code Generator: Do not retain any gas in calls (except if EVM version is set to homestead).
  * Code Generator: Use ``STATICCALL`` opcode for calling ``view`` and ``pure`` functions as experimenal 0.5.0 feature.
- * General: Allow providing reason string for ``revert()``.
+ * General: Allow providing reason string for ``revert()`` and ``require()``.
  * Inline Assembly: Enforce strict mode as experimental 0.5.0 feature.
  * Interface: Provide ability to select target EVM version (homestead or byzantium, with byzantium being the default).
  * Standard JSON: Reject badly formatted invalid JSON inputs.
