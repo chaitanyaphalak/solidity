@@ -17,6 +17,7 @@ Features:
  * Syntax Checker: Issue warning when using overloads of ``address`` on contract instances.
  * Type Checker: disallow combining hex numbers and unit denominations as experimental 0.5.0 feature.
  * Improved messaging when error spans multiple lines of a sourcefile 
+ * Introduce new constructor syntax using the ``constructor`` keyword as experimental 0.5.0 feature.
 
 Bugfixes:
  * Assembly: Raise error on oversized number literals in assembly.
